@@ -1,3 +1,11 @@
+.container-fluid {
+  max-width: 1200px;
+}
+
+header, section {
+  padding: 0 16px;
+}
+
 header {
   min-height: 800px;
   background-image: url(https://www.digitalocean.com/assets/media/homepage/hero-background-c9490927.svg);
@@ -8,7 +16,6 @@ header {
 
 header nav {
   height: 90px;
-  max-width: 1200px;
   color: hsla(0,0%,100%,.7);
 }
 
@@ -52,4 +59,115 @@ nav .logo i {
   color: white;
   text-decoration: none;
   background-color: rgba(255, 255, 255, 0.1);
+}
+
+input, button {
+  width: 100%;
+}
+
+.hero {
+  padding: 64px 0;
+  margin-top: 16px;
+}
+
+.hero h1, .hero p.description {
+  color: white;
+}
+
+.hero h1 {
+  font-size: 58px;
+  font-weight: 700;
+}
+
+.hero p.description {
+  font-size: 19px;
+  font-weight: 200;
+  opacity: 0.8;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+.white-box {
+  background-color: white;
+  padding: 32px;
+  border-radius: 5px;
+}
+
+.white-box * {
+  margin-top: 16px;
+}
+
+.white-box h2 {
+  font-weight: bold;
+}
+
+.white-box h2.first-h2 {
+  color: rgb(3, 27, 78);
+}
+
+.white-box h2.second-h2 {
+  color: #0069ff;
+}
+
+input, button {
+  height: 46px;
+  padding: 0 16px;
+  border: 1px solid rgb(241, 241, 241);
+  border-radius: 5px;
+}
+
+::placeholder {
+  opacity: 1;
+  color: rgba(3,27,78,.8);
+}
+
+button {
+  font-weight: bold;
+}
+
+button.account {
+  background-color: blue;
+  color: white;
+}
+
+button {
+  background-color: white;
+  color: grey;
+}
+
+.micro-text {
+  padding-top: 16px;
+  font-size: 13px;
+  color: rgba(3, 27, 78, 0.7);
+}
+
+.small-section {
+  padding: 64px 0;
+}
+
+.logos-section {
+  background-color: #f3f5f9;
+}
+
+.logos-section .row {
+  flex-wrap: wrap;
+}
+
+.logos-section .row div {
+  max-width: 200px;
+  padding: 0 15px;
+}
+
+.logos-section .row div img{
+  max-width: 100%;
+}
+
+.blue-text {
+  color: #0069ff;
+  font-weight: bold;
+}
+
+.fa-chevron-right {
+  margin-left: 5px;
+  font-size: 14px;
 }
