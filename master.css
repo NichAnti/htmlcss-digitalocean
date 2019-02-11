@@ -1,0 +1,55 @@
+header {
+  min-height: 800px;
+  background-image: url(https://www.digitalocean.com/assets/media/homepage/hero-background-c9490927.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+header nav {
+  height: 90px;
+  max-width: 1200px;
+  color: hsla(0,0%,100%,.7);
+}
+
+header nav span:not(#logo-text) {
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: 24px;
+}
+
+nav .fa-chevron-down {
+  margin-left: 3px;
+}
+
+nav .logo, .ibutton, nav header {
+  color: white;
+}
+
+nav .logo #logo-text {
+  font-size: 21.5px;
+  font-weight: bold;
+  margin-left: 8px;
+  margin-right: 40px;
+}
+
+nav .logo i {
+  font-size: 29px;
+}
+
+.ibutton {
+  display: inline-block;
+  border: 1px solid hsla(0,0%,100%,.7);
+  border-radius: 5px;
+  margin-left: 24px;
+  padding: 5px 16px 5px;
+  font-weight: 600;
+  font-size: 14px;
+  transition: background-color 1s;
+}
+
+.ibutton:hover {
+  color: white;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.1);
+}
